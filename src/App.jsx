@@ -66,14 +66,14 @@ class App extends Component {
     return (
       <>
         <Container>
-          <h1>Phonebook</h1>
+          <h1 className="Title">Phonebook</h1>
           <ContactForm onSubmit={this.addContact} />
 
+          <h2 className="SubTitle">Contacts</h2>
           <ContactFilter
             value={this.state.filter}
             onChange={this.onChangeFilter}
           />
-          <h2>Contacts</h2>
           <ContactList
             contacts={filteredContacts}
             onDelete={this.handleDeleteContact}

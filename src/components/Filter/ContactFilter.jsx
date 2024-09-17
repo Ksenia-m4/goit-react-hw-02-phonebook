@@ -1,13 +1,15 @@
 import PropTypes from "prop-types";
 
+import "./ContactFilter.css";
+
 const ContactFilter = ({ value, onChange }) => {
   return (
-    <>
-      <p>Find contacts by name</p>
-      <label htmlFor="text">
-        <input id="text" type="text" value={value} onChange={onChange} />
+    <div className="Filter">
+      <label htmlFor="text" className="filter-input">
+        Find contacts by name
       </label>
-    </>
+      <input id="text" type="text" value={value} onChange={onChange} />
+    </div>
   );
 };
 

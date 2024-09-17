@@ -2,6 +2,8 @@ import PropTypes from "prop-types";
 
 import { Component } from "react";
 
+import "./ContactForm.css";
+
 class ContactForm extends Component {
   state = {
     name: "",
@@ -31,7 +33,7 @@ class ContactForm extends Component {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <form onSubmit={this.handleSubmit} className="Form">
         <label htmlFor="name">Name</label>
         <input
           onChange={this.handleChange}
