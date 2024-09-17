@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const ContactFilter = ({ value, onChange }) => {
   return (
     <>
@@ -7,6 +9,11 @@ const ContactFilter = ({ value, onChange }) => {
       </label>
     </>
   );
+};
+
+ContactFilter.propTypes = {
+  value: PropTypes.string.isRequired,
+  onChange: PropTypes.func.isRequired,
 };
 
 export default ContactFilter;
