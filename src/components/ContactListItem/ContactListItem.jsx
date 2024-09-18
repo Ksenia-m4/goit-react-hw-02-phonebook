@@ -1,8 +1,10 @@
 import PropTypes from "prop-types";
 
+import css from "./ContactListItem.module.css";
+
 const ContactListItem = ({ id, name, number, onDelete }) => {
   return (
-    <li>
+    <li className={css.item}>
       {name}: {number}
       <button onClick={() => onDelete(id)}>Delete</button>
     </li>

@@ -1,9 +1,4 @@
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-li {
+.item {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,7 +9,7 @@ li {
   background-color: #f9f9f9;
 }
 
-li button {
+.item button {
   padding: 5px 10px;
   font-size: 0.9rem;
   background-color: #f44336;
@@ -25,6 +20,6 @@ li button {
   transition: background-color 0.3s ease;
 }
 
-li button:hover {
+.item button:hover {
   background-color: #d32f2f;
 }

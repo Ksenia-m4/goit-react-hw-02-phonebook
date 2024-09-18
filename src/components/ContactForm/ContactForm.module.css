@@ -1,23 +1,23 @@
-.Form {
+.form {
   display: flex;
   flex-direction: column;
   gap: 15px;
   margin-bottom: 48px;
 }
 
-.Form label {
+.form label {
   font-size: 1rem;
   color: #555;
 }
 
-.Form input {
+.form input {
   padding: 10px;
   font-size: 1rem;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 
-.Form button {
+.form button {
   padding: 10px;
   font-size: 1rem;
   background-color: #4caf50;
@@ -28,6 +28,6 @@
   transition: background-color 0.3s ease;
 }
 
-.Form button:hover {
+.form button:hover {
   background-color: #45a049;
 }

@@ -1,16 +1,16 @@
-.Filter {
+.filter {
   display: flex;
   flex-direction: column;
   gap: 15px;
   margin-bottom: 28px;
 }
 
-.Filter label {
+.filter label {
   font-size: 1rem;
   color: #555;
 }
 
-.Filter input {
+.filter input {
   padding: 10px;
   font-size: 1rem;
   border: 1px solid #ccc;
